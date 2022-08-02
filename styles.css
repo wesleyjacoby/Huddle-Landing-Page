@@ -102,7 +102,7 @@ i.fa-brands {
     border-radius: 50%;
 }
 
-.fa-brands:hover {
+i.fa-brands:hover {
     color: var(--magenta);
     border-color: var(--magenta);
     cursor: pointer;
@@ -118,7 +118,7 @@ i.fa-brands {
     }
 
     .flex-container {
-        padding: 3rem 8rem;
+        padding: 3rem 5rem;
     }
 
     .hero {
@@ -164,19 +164,18 @@ i.fa-brands {
     }
 
     .socials {
-        display: inline-flex;
+        display: flex;
         justify-content: flex-end;
         text-align: center;
         margin-top: 0px;
         gap: 0.6875rem;
     }
 
-    .fa-brands {
+    i.fa-brands {
         display: flex;
         justify-content: center;
-        align-items: center;
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 }
 
