@@ -92,7 +92,7 @@ body {
     gap: 0.6875rem;
 }
 
-.fa-brands {
+i.fa-brands {
     display: flex;
     justify-content: center;
     align-items: center;
